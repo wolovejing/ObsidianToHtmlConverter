@@ -271,7 +271,7 @@ def readFilesRecursive(path):
             outputfile.write('<body style="background: #F0F0F0;">\n')
             outputfile.write('<div style="margin: 0 auto; width:1380px;  position: relative;" >\n')
             
-            outputfile.write('<div style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;">\n')
+            outputfile.write('<div style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;" id = "maindiv">\n')
             InCodeBlock = False
             InComment = False
             for line in data:
